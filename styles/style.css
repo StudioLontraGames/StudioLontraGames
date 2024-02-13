@@ -56,3 +56,114 @@ nav{
     text-decoration: underline;
     color: blue;
 }
+
+main{
+    background-color: rgb(62, 102, 102);
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.span{
+    margin: auto;
+    margin-top: 220px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/*Lista das redes socias*/
+
+.redes_socias{
+    display: block;
+    margin: auto;
+}
+
+.redes_socias_titulo{
+    font-size: 16px;
+    color: darkcyan;
+    text-align: end;
+    border-bottom: 2px solid rgb(43, 84, 112);
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+.redes_socias_lista{
+    text-align: end;
+    padding: 20px;
+    margin: 10px;
+}
+
+.redes_socias_lista>a{
+    text-decoration: none;
+}
+
+.redes_socias_lista>li{
+    text-align: center;
+    padding: 6px;
+}
+
+.yt{
+    color: red;
+}
+
+.insta{
+    background-image: linear-gradient(to top right, #F24150, #5E308C, #F28705, #F25C05);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+.dc{
+    color: #635ea0;
+}
+
+.ttk{
+    color: rgb(107, 107, 107);
+    text-shadow: 2px 3px 3px blue;
+}
+
+.kw{
+    color: #d36220;
+}
+
+/*Repot*/
+
+.report{
+    align-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.tr{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    color: rgb(189, 36, 36);
+    font-size: 16px;
+    text-align: justify;
+    border-bottom: 2px solid rgb(211, 1, 1);
+}
+
+#report_text{
+    font-family: designer;
+    color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    border: 2px solid #5e308c8e;
+    background-color: transparent;
+}
+
+#enviar_btn{
+    padding: 3px;
+    font-family: designer;
+    font-size: 12px;
+    color: darkcyan;
+    background-color: rgba(255, 255, 255, 0.199);
+    border: 1px solid white;
+    border-radius: 8px;
+}
