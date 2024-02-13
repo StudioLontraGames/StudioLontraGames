@@ -1,5 +1,58 @@
 @charset "UTF-8";
+@font-face{
+    font-family: designer;
+src: url('Designer.otf') format ('opentype');
+font-weight: normal;
+font-style: normal;
+}
 
 body{
     background-color: lightblue;
+    font-family: designer;
+}
+
+header{
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+
+.logo{
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+h2{
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 28px;
+}
+
+p{
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+nav{
+    background-color: lightcyan;
+    border-radius: 10px;
+}
+
+.navegação{
+    text-decoration: none;
+}
+
+.navegação>li{
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+}
+
+.navegação>li:hover{
+    text-decoration: underline;
+    color: blue;
 }
