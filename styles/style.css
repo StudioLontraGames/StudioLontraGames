@@ -8,14 +8,7 @@ font-style: normal;
 
 /**variavels**/
 
-:root{
-    --corL1: #6695F2;
-    --corL2: #4D5583;
-    --corL3: #D99B66; 
-    --corL4: #8C533E; 
-    --corL5: #59302C; 
 
-}
 
 /*Header*/
 
@@ -73,9 +66,9 @@ nav{
     margin: auto;
 }
 
-.navegação>li:hover{
+.navegação>a>li:hover{
     text-decoration: underline;
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 main{
