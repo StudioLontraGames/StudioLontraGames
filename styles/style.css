@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @font-face{
-    font-family: designer;
+    font-family: 'designer';
 src: url('Designer.otf') format ('opentype');
 font-weight: normal;
 font-style: normal;
@@ -20,8 +20,8 @@ font-style: normal;
 /*Header*/
 
 body{
-    background-color: lightblue;
-    font-family: designer;
+    background-color:var(--corL5);
+    font-family: 'designer';
 }
 
 header{
@@ -58,7 +58,7 @@ p{
 }
 
 nav{
-    background-color: lightcyan;
+    background-color: var(--corL3);
     border-radius: 10px;
 }
 
@@ -84,7 +84,7 @@ main{
 
 footer{
     display: flex;
-    background-color: black;
+    background-color: var(--corL2);
     color: white;
     font-size: 12px;
     border-radius: 20px;
