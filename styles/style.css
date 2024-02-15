@@ -13,7 +13,7 @@ font-style: normal;
 /*Header*/
 
 body{
-    background-color:var(--corL5);
+    background-color:var(--corL2);
     font-family: 'designer';
 }
 
@@ -26,14 +26,14 @@ header{
     padding: 10px;
     font-size: 20px;
     text-align: left;
-    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 5px 5px var(--Sombra);
 }
 a{
     display: inline-block;
     padding: 0 10px;
     margin: auto;
     text-decoration: none;
-    color: black;
+    color: var(--corP)
 
 }
 
@@ -68,16 +68,16 @@ nav{
 
 .navegação>a>li:hover{
     text-decoration: underline;
-    color: rgb(0, 0, 0);
+    color: var(--corP)
 }
 
 main{
-    background-color: rgb(62, 102, 102);
+    background-color: var(--Main);
 }
 
 footer{
     display: flex;
-    background-color: var(--corL2);
+    background-color: var(--corP);
     color: white;
     font-size: 12px;
     border-radius: 20px;
