@@ -1,9 +1,9 @@
 @charset "UTF-8";
 @font-face{
-    font-family: 'designer';
-src: url('Designer.otf') format ('opentype');
-font-weight: normal;
-font-style: normal;
+    font-family:'Designer';
+    src: url('../fonts/Designer.otf') format ('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /**variavels**/
@@ -13,8 +13,8 @@ font-style: normal;
 /*Header*/
 
 body{
-    background-color:var(--corL2);
-    font-family: 'designer';
+    background-color: var(--corL2);
+    font-family: 'Designer';
 }
 
 header{
@@ -35,6 +35,20 @@ a{
     text-decoration: none;
     color: var(--corP)
 
+}
+
+.butao{
+    Color: var(--corB);
+    Background-color: var(--corL2);
+    width: 100px;
+    height: 25px;
+    
+    text-align: center;
+    margin: auto;
+
+    border-radius: 100px;
+    
+    
 }
 
 h2{
