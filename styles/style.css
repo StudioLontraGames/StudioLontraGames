@@ -42,13 +42,17 @@ a{
     Background-color: var(--corL2);
     width: 100px;
     height: 25px;
-    
-    text-align: center;
-    margin: auto;
 
+    text-align: center;
     border-radius: 100px;
     
     
+}
+
+.right{
+    display: inline;
+   margin-left: 950px;
+   margi
 }
 
 h2{
